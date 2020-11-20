@@ -1,21 +1,21 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "2.0.0"
-let checksum = "837ecb11847f667a217a4a953ac8214b930ab181eb3cbb8d6ee9e7cbf8a7e0bc"
+let version = "2.0.0-beta1"
+let checksum = "373e8426a83e6f61f52191420ee9c59c5c898b86dbf9a3ca0f6cc06db0bbb6f6"
 let url = "https://github.com/sparkle-project/Sparkle/releases/download/\(version)/Sparkle-SPM-\(version).zip"
 
 
 let package = Package(
-    name: "Sparkle",
-    platforms: [.macOS(.v10_15)],
+    name: "RSSparkle",
+    platforms: [.macOS(.v10_11)],
     products: [
-        .library(
-            name: "Sparkle",
-            targets: ["Sparkle"])
+        .library(name: "RSSparkle", targets: ["RSSparkle"]),
+        .library(name: "RSSparkleXPC", targets: ["RSSparkleXPC"])
     ],
     targets: [
-        .binaryTarget(name: "Sparkle", path: "./Sparkle.xcframework")
+        .binaryTarget(name: "RSSparkle", path: "./Sparkle.xcframework"),
+        .target(name: "RSSparkleXPC", resources: [.copy("Resources")])
     ]
 )
 
