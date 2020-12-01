@@ -422,11 +422,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/fr_CA.lproj</key>
-		<dict>
-			<key>symlink</key>
-			<string>fr.lproj</string>
-		</dict>
 		<key>Resources/he.lproj/Sparkle.strings</key>
 		<dict>
 			<key>hash</key>
@@ -530,11 +525,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>Resources/pt.lproj</key>
-		<dict>
-			<key>symlink</key>
-			<string>pt_BR.lproj</string>
 		</dict>
 		<key>Resources/pt_BR.lproj/Sparkle.strings</key>
 		<dict>

@@ -10,19 +10,19 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			4u6dcWJ/FUGEoMzv+dGop57DXtw=
+			u0qoh2VvBAW6fJEeoXorKHXvhHs=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"658a70b9d2d389c086433126ff259ee263247b29" or cdhash H"e2ee9d71627f154184a0cceff9d1a8a79ec35edc" or cdhash H"86f6cbd23c573f1aab41c027d28c8c2ba4ea0124" or cdhash H"a666ab9b660affc2ddf89855f05983e54e78a422"</string>
+			<string>cdhash H"20af53f81a546e8334a00fb69c11e37db6dafad2" or cdhash H"bb4aa887656f0405ba7c911ea17a2b2875ef847b" or cdhash H"2e2d7ac632e3634bf426103b3adb73ebe854946a" or cdhash H"2874c18997b7d8e1754efb4483db6a7723402063"</string>
 		</dict>
 		<key>MacOS/Updater.app</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Vd1bV7RYKTFw7rrVvq4vORweSNw=
+			h4o7I1a2kCGl7LiHOV5QKE7dHAg=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"55c5f5c21d7a1b677908ef0951c008f170413490" or cdhash H"55dd5b57b458293170eebad5beae2f391c1e48dc" or cdhash H"934f6e08232316efc5e602b37471ff2825f20d1a" or cdhash H"cff78d762d3bf40e44394124a874ec43129f0879"</string>
+			<string>cdhash H"1fe27afbf32de48bc327fb837cda4203af9a5678" or cdhash H"878a3b2356b69021a5ecb887395e50284edd1c08" or cdhash H"8f28a4f46acf89c87da9377362334f2ce224b521" or cdhash H"d7fdaab6ca5b9cf986f0d819b555c3d1f57b99e5"</string>
 		</dict>
 	</dict>
 	<key>rules</key>
