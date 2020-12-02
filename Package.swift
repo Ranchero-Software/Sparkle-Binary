@@ -1,8 +1,8 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "2.0.0-beta1"
-let checksum = "373e8426a83e6f61f52191420ee9c59c5c898b86dbf9a3ca0f6cc06db0bbb6f6"
+let version = "2.0.0-beta2"
+let checksum = "f43283ba6a7974a4cb863306cff672f6818666b4e19f3fa5ae1ffa4ed1cb9b09"
 let url = "https://github.com/sparkle-project/Sparkle/releases/download/\(version)/Sparkle-SPM-\(version).zip"
 
 
