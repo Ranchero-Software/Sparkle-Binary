@@ -41,6 +41,7 @@ typedef NS_ENUM(OSStatus, SUError) {
     SURunningFromDiskImageError = 1003,
     SUResumeAppcastError = 1004,
     SURunningTranslocated = 1005,
+    SUWebKitTerminationError = 1006,
 
     // Download phase errors.
     SUTemporaryDirectoryError = 2000,
@@ -49,6 +50,7 @@ typedef NS_ENUM(OSStatus, SUError) {
     // Extraction phase errors.
     SUUnarchivingError = 3000,
     SUSignatureError = 3001,
+    SUValidationError = 3002,
     
     // Installation phase errors.
     SUFileCopyFailure = 4000,
@@ -61,6 +63,7 @@ typedef NS_ENUM(OSStatus, SUError) {
     SUInstallationCanceledError = 4007,
     SUInstallationAuthorizeLaterError = 4008,
     SUNotAllowedInteractionError = 4009,
+    SUAgentInvalidationError = 4010,
     
     // API misuse errors.
     SUIncorrectAPIUsageError = 5000
