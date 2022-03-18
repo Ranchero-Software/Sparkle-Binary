@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "RSSparkleXPC", targets: ["RSSparkleXPC"])
     ],
     targets: [
-        .binaryTarget(name: "RSSparkle", path: "./Sparkle.xcframework"),
+        .binaryTarget(name: "RSSparkle", path: "./RSSparkle.xcframework"),
         .target(name: "RSSparkleXPC", resources: [.copy("Resources")])
     ]
 )
